@@ -43,3 +43,6 @@ before_install:
  # - rake test:ios
  # - rake test:osx
  # - rake test:xctool:ios
+
+script:
+- xcodebuild -project DPPickerManager.xcodeproj -scheme DPPickerManager -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
