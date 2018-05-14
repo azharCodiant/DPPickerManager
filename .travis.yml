@@ -46,4 +46,4 @@ before_install:
 
 script:
 #- xcodebuild -project DPPickerManager.xcodeproj -scheme DPPickerManager test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
--xcodebuild -workspace DPPickerManager.xcworkspace -scheme DPPickerManagerTests -sdk iphonesimulator -configuration Release TEST_AFTER_BUILD=YES
+-xcodebuild -project DPPickerManager.xcodeproj -scheme DPPickerManagerTests -sdk iphonesimulator -configuration Release TEST_AFTER_BUILD=YES
