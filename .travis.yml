@@ -39,7 +39,7 @@ before_install:
   - brew update || brew update
   - brew outdated xctool || brew upgrade xctool
 
-script:
-  - rake test:ios
-  - rake test:osx
-  - rake test:xctool:ios
+#script:
+ # - rake test:ios
+ # - rake test:osx
+ # - rake test:xctool:ios
