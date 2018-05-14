@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		777161A020A72978004DD505 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7771619F20A72978004DD505 /* .travis.yml */; };
+		77DCBBBB20A9CC370083D98B /* DPPickerManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCBBBA20A9CC370083D98B /* DPPickerManagerTests.swift */; };
 		9FF676752028A96300D34A10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF676742028A96300D34A10 /* AppDelegate.swift */; };
 		9FF676772028A96300D34A10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF676762028A96300D34A10 /* ViewController.swift */; };
 		9FF6767A2028A96300D34A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF676782028A96300D34A10 /* Main.storyboard */; };
@@ -19,8 +20,21 @@
 		9FF6768E2028AD9500D34A10 /* ic_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6768B2028AD9500D34A10 /* ic_close@2x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		77DCBBBD20A9CC370083D98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF676692028A96300D34A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF676702028A96300D34A10;
+			remoteInfo = DPPickerManager;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		7771619F20A72978004DD505 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		77DCBBB820A9CC370083D98B /* DPPickerManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPPickerManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DCBBBA20A9CC370083D98B /* DPPickerManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPickerManagerTests.swift; sourceTree = "<group>"; };
+		77DCBBBC20A9CC370083D98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FF676712028A96300D34A10 /* DPPickerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPPickerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF676742028A96300D34A10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FF676762028A96300D34A10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +51,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		77DCBBB520A9CC370083D98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FF6766E2028A96300D34A10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77DCBBB920A9CC370083D98B /* DPPickerManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				77DCBBBA20A9CC370083D98B /* DPPickerManagerTests.swift */,
+				77DCBBBC20A9CC370083D98B /* Info.plist */,
+			);
+			path = DPPickerManagerTests;
+			sourceTree = "<group>";
+		};
 		9FF676682028A96300D34A10 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +84,7 @@
 				9FF676732028A96300D34A10 /* DPPickerManager */,
 				9FF676922028B45B00D34A10 /* README.md */,
 				9FF676902028B43500D34A10 /* DPPickerManager.podspec */,
+				77DCBBB920A9CC370083D98B /* DPPickerManagerTests */,
 				9FF676722028A96300D34A10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9FF676712028A96300D34A10 /* DPPickerManager.app */,
+				77DCBBB820A9CC370083D98B /* DPPickerManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +134,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		77DCBBB720A9CC370083D98B /* DPPickerManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77DCBBC120A9CC370083D98B /* Build configuration list for PBXNativeTarget "DPPickerManagerTests" */;
+			buildPhases = (
+				77DCBBB420A9CC370083D98B /* Sources */,
+				77DCBBB520A9CC370083D98B /* Frameworks */,
+				77DCBBB620A9CC370083D98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77DCBBBE20A9CC370083D98B /* PBXTargetDependency */,
+			);
+			name = DPPickerManagerTests;
+			productName = DPPickerManagerTests;
+			productReference = 77DCBBB820A9CC370083D98B /* DPPickerManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9FF676702028A96300D34A10 /* DPPickerManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FF676832028A96300D34A10 /* Build configuration list for PBXNativeTarget "DPPickerManager" */;
@@ -129,6 +179,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Danilo Priore";
 				TargetAttributes = {
+					77DCBBB720A9CC370083D98B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FF676702028A96300D34A10;
+					};
 					9FF676702028A96300D34A10 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -149,11 +204,19 @@
 			projectRoot = "";
 			targets = (
 				9FF676702028A96300D34A10 /* DPPickerManager */,
+				77DCBBB720A9CC370083D98B /* DPPickerManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		77DCBBB620A9CC370083D98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FF6766F2028A96300D34A10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +234,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		77DCBBB420A9CC370083D98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DCBBBB20A9CC370083D98B /* DPPickerManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FF6766D2028A96300D34A10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,6 +253,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77DCBBBE20A9CC370083D98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF676702028A96300D34A10 /* DPPickerManager */;
+			targetProxy = 77DCBBBD20A9CC370083D98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9FF676782028A96300D34A10 /* Main.storyboard */ = {
@@ -203,6 +282,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		77DCBBBF20A9CC370083D98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DPPickerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codiant.DPPickerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPPickerManager.app/DPPickerManager";
+			};
+			name = Debug;
+		};
+		77DCBBC020A9CC370083D98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DPPickerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codiant.DPPickerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPPickerManager.app/DPPickerManager";
+			};
+			name = Release;
+		};
 		9FF676812028A96300D34A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -343,6 +452,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		77DCBBC120A9CC370083D98B /* Build configuration list for PBXNativeTarget "DPPickerManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DCBBBF20A9CC370083D98B /* Debug */,
+				77DCBBC020A9CC370083D98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9FF6766C2028A96300D34A10 /* Build configuration list for PBXProject "DPPickerManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
